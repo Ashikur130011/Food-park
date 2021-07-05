@@ -2,19 +2,24 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
+.banner img{
+    width: 100%;
+}
 .color{
     color: orangered;
 }
-h1{
+h1 {
     font-size: 50px;
-    line-height: 15%;
+    margin: 0;
 }
 p{
-    line-height: 200%;
-    padding-top: 5%;
+    line-height: 2;
+    font-size: 17px;
+    
 }
 .anchor-btn{
     text-decoration: none;
+    font-weight: bold;
     background-image: linear-gradient(orangered, orange);
     padding: 20px 30px;
     color:white;
@@ -37,23 +42,66 @@ p{
 }
 .flexible-container{
     display: flex;
-    padding-bottom: 150px;
+    padding-bottom: 70px;
 }
 .text-item{
     margin-top: 10%;
 }
-.middle-part{
-    width: 30%;
-    margin-left: 10%;
-    padding-left: 2%;
+h2{
+    font-size: 40px;
 }
+.about-text{
+    margin-top: 5%;
+}
+.middle-part{
+    width: 27%;
+    margin-left: 15%;
+    height: 400px;
 
-.dietician{
-    height: 30%;
-    padding-top: 22%;
-    
+}
+.middle-part img {
+    width: 79%;
+    display: block;
+    padding-top: 80px;
+    padding-left: 10%;
 }
 #about-area{
     background-image: url(images/background.png);
     background-repeat: no-repeat;
+}
+.trichotomy-width{
+    width: 25%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0px 0px 15px 10px rgb(216, 211, 211);
+    padding: 15px;
+    height: 30em;
+}
+.trichotomy-width img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.recipies{
+    text-align: center;
+}
+.footer-part{
+    text-align: center;
+    padding-top: 3px;
+}
+.footer-part p{
+    color: white;
+}
+
+footer{
+    background-color: rgb(5, 31, 31);
 }
