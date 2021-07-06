@@ -4,8 +4,7 @@ body{
 }
 .header h2 {
     font-size: 80px;
-    font-family:cursive;
-    color: rgba(226, 57, 6, 0.808);
+    color: rgba(226, 57, 6, 0.651);
     text-shadow: 9px 9px 9px;
     margin-top: 0;
     margin-bottom: 10%;
@@ -100,7 +99,7 @@ h2{
 .middle-part img {
     width: 79%;
     display: block;
-    padding-top: 22%;
+    padding-top: 80px;
     padding-left: 10%;
 }
 #about-area{
