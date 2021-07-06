@@ -2,6 +2,42 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
+.header h2 {
+    font-size: 80px;
+    color: rgba(6, 67, 233, 0.685);
+    text-shadow: 6px 6px 6px;
+    margin-top: 0;
+    margin-bottom: 10%;
+    margin-left: 6rem;
+}
+.header{
+    background-image: linear-gradient(to right ,rgba(255, 255, 255, 0.158),rgba(255, 255, 255, 0.76)), url(images/banner.png);
+    height: 405px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar{
+    float:right;
+    margin-right: 60px;
+    margin-top: 70px;
+}
+.nav-bar ul li{
+	display: inline-block;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+	display: block;
+	padding: 20px 30.5px;
+	
+}
+.nav-bar li.active> a, .nav-bar li> a:hover {
+	color: white;
+	background:#59449286;
+	font-weight:bold;
+}
+
 .banner img{
     width: 100%;
 }
